@@ -34,6 +34,8 @@ impl UserScheme for SimpleTheme {
 impl HostScheme for SimpleTheme {
     const HOSTNAME_BG: Color = Color(238);
     const HOSTNAME_FG: Color = Color(250);
+    const HOSTNAME_SSH_BG: Color = Color(166);
+    const HOSTNAME_SSH_FG: Color = Color(254);
 }
 
 impl ReadOnlyScheme for SimpleTheme {
